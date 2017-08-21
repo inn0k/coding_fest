@@ -40,13 +40,13 @@ img{
 /* --------------- /базовые настройки ---------*/
 
 header{
-	background: url(images/happy_children1.jpg) center center no-repeat; color: #fff; text-align: center; background-size: cover; padding: 135px 20px 90px 20px;
 }
 	header>h1{
 		font-size: 3.75em; 
 		font-family: 'Pangolin', cursive; 
 		sans-serif; margin-bottom: 25px; 
 		text-shadow: 0px 0px 5px black;
+		padding: 200px 20px 90px 20px;
 		
 	}
 	/*header>h1#main-header{
