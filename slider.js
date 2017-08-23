@@ -42,7 +42,7 @@
       });
   };
 
-  $bullet.on( 'click', clickSlide);
+  $bullet.on('click', clickSlide);
 
-  var autoSlide = window.setInterval(updateIndex, 2000);
+  var autoSlide = window.setInterval(updateIndex, 5000);
 })(jQuery);

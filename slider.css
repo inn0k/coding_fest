@@ -19,10 +19,7 @@
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
-  text-align: center;
-  text-transform: uppercase;  
-
-  color: #fff;
+  min-height: 500px;
 }
 
 .slide-1{

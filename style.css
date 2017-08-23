@@ -40,13 +40,19 @@ img{
 /* --------------- /базовые настройки ---------*/
 
 header{
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
 }
 	header>h1{
 		font-size: 3.75em; 
-		font-family: 'Pangolin', cursive; 
-		sans-serif; margin-bottom: 25px; 
+		font-family: 'Pangolin', cursive;
+		margin-bottom: 25px;
 		text-shadow: 0px 0px 5px black;
-		padding: 200px 20px 90px 20px;
+		padding: 100px 20px 90px 20px;
 		
 	}
 	/*header>h1#main-header{
