@@ -2,6 +2,77 @@
 html {
 	min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
 }
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #ECF7F9;
+	overflow: hidden;
+	height: 110px;
+	width: 100%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+	height: 110px;
+}
+
+.topnav ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+
+}
+
+.topnav ul li {
+	padding: 0 8px;
+
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+	position: relative;
+	top: 0px;
+	left: 150px;
+	float: left;
+	display: block;
+	color: #4F4F4F;
+	text-align: center;
+	padding: 35px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Roboto;
+	font-style: Regular;
+}
+
+.logo{
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 118px;
+	height: 89px;
+}
+
+.telephone{
+	position: absolute;
+	top: 90px;
+	left: 10px;
+	color: #4F4F4F;
+	font-family: Roboto
+	font-style: Regular
+}
+
+
+.contactIcon{
+	position: absolute;
+	top: 85px;
+	left: 140px;
+	width: 50px;
+	height: 30px;
+
+}
 body {
 	color: #404040;
 	text-align: left;
@@ -50,21 +121,47 @@ header{
 }
 	header>h1{
 		font-size: 3.75em; 
-		font-family: 'Pangolin', cursive;
+		font-family: 'Andika', sans-serif;
 		margin-bottom: 25px;
-		text-shadow: 0px 0px 5px black;
-		padding: 100px 20px 90px 20px;
+		text-shadow: 3px 5px 5px black;
+		padding: 100px 20px 30px 20px;
 		text-transform: uppercase;
+		stroke: black;
+	
 	}
 
 	header>h2{
 		font-size: 1.35em;
 		margin-bottom: 50px;
 		font-family: 'Comfortaa', cursive;
-		text-shadow: 0px 0px 5px black;
+		text-shadow: 3px 5px 5px black;
 		padding: 10px 20px 30px 20px;
 
 	}
 	.buttons_set{
 		background: rgba(0,0,0,0.65); display: table; padding: 20px; margin:0 auto 10px auto; border-radius: 5px;  
 	}
+.int-threats{
+	width: 95%;
+	height: 150px;
+	margin: 12px 12px 12px 12px;
+}
+.threat-1{
+	float: left;
+	margin: 2px 12px 12px 12px;
+
+	height: 100px;
+}
+.threat-2{
+	float: right;
+	margin: 2px 12px 12px 12px;
+
+	height: 100px;
+}
+.block-title{
+	text-align: left;
+	width: 90%;
+	font-family: 'Ubuntu Mono', monospace;
+	padding: 10px 20px 30px 20px;
+	font-size: 50px;
+}
